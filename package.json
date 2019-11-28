@@ -45,7 +45,9 @@
     "socket.io": "^2.3.0"
   },
   "devDependencies": {
-    "gulp": "^4.0.2"
+    "gulp": "^4.0.2",
+    "js-yaml": ">=3.13.1"
+
   },
   "engines": {
     "node": "10.16.3",
