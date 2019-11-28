@@ -29,9 +29,9 @@ const development = {
             pass: process.env.CODEIAL_GMAIL_PASSWORD
         }
     },
-    google_client_id: "333012448622-enb6m5ccc1mpu63chr8lv512r47pjl7t.apps.googleusercontent.com",
-    google_client_secret: "uIgvSBdksgnEgf9ngmFv2SJH",
-    google_call_back_url: "http://localhost:8000/users/auth/google/callback",
+    google_client_id: process.env.CODEIAL_GOOGLE_CLIENT_ID,
+    google_client_secret: process.env.CODEIAL_GOOGLE_CLIENT_SECRET,
+    google_call_back_url: process.env.CODEIAL_GOOGLE_CALLBACK_URL,
     jwt_secret: 'kAHGiZCiYYSrj3YZNOvlnce1nMyawv8u',
     morgan: {
         mode: 'dev',
