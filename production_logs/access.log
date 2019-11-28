@@ -2432,3 +2432,7 @@
 ::1 - - [27/Nov/2019:19:38:45 +0000] "GET /users/profile/5dde6d59fc38d617605a61c8 HTTP/1.1" 200 2413 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
 ::1 - - [27/Nov/2019:19:38:50 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/users/profile/5dde6d59fc38d617605a61c8" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
 ::1 - - [27/Nov/2019:19:54:23 +0000] "GET / HTTP/1.1" 200 6223 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
+::1 - - [28/Nov/2019:12:22:50 +0000] "GET / HTTP/1.1" 200 4481 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
+::1 - - [28/Nov/2019:12:22:51 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
+::1 - - [28/Nov/2019:12:27:03 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
+::1 - - [28/Nov/2019:12:43:00 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
